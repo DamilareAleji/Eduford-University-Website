@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Noto+Serif:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 106px;
+    justify-content: space-between;
+    padding: 3rem 0 0;
+}
+
+nav .logo{
+    padding: 0 12px 0 96px;
+    width: 390.66px;
+    height: 58px;
+}
+
+nav .logo img{
+    width: 150px;
+    height: 43px;
+}
+
+nav .nav-links{
+    display: flex;
+    width: 781.33px;
+    height: 58px;
+    padding: 8px 12px 8px 96px;
+    color: #212529;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .nav-links li{
+    width: 98.08px;
+    height: 42px;
+    color: #212529;
+    padding: 0 25px 0 0;
+    list-style-type: none;
+}
+
+nav .nav-links li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .nav-links li::after{
+    content: '';
+    width: 98.08px;
+    height: 20px;
+    background-color: #ff0000;
+}
+
+nav .nav-links li a:hover{
+    color: #ff0000;
+}
+
+nav .nav-links li a:active{
+    color: #ff0000;
+}
